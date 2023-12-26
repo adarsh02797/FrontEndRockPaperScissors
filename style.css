@@ -1,0 +1,62 @@
+* {
+    background-color: black;
+    text-align: center;
+}
+
+h1{
+    color: goldenrod;
+}
+
+.play-btns>img {
+    border-radius: 50%;
+    border: 1px solid rgb(254, 213, 6);
+    padding: 20px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.play-btns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.control-btns>button {
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.control-btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.round>p>img {
+    width: 100px;
+}
+
+.round>p {
+    color: goldenrod;
+}
+
+.scoreboard>p {
+    display: inline-block;
+    color: goldenrod;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid rgb(254, 213, 6);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
